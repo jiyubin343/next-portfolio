@@ -1,11 +1,12 @@
-import Layout from "@/components/layout";
 import styles from "@/styles/Home.module.css";
+import Lottie from "react-lottie-player";
+import Layout from "@/components/layout";
 
 export default function PageNotFound() {
 
     return (
         <Layout>
-            <h1>페이지를 찾을 수 업어요 ㅜㅜ</h1>
+            <Animation></Animation>
         </Layout>
     )
 }
